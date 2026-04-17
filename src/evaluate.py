@@ -62,11 +62,3 @@ plt.ylabel('True')
 plt.title('Confusion Matrix')
 plt.show()
 
-# Save the computed metrics to output/metrics.txt
-with open('output/metrics.txt', 'w') as f:
-    f.write(f'Accuracy: {accuracy:.4f}\n')
-    f.write(f'Precision: {precision:.4f}\n')
-    f.write(f'Recall: {recall:.4f}\n')
-    f.write(f'F1 Score: {f1:.4f}\n')
-
-    
